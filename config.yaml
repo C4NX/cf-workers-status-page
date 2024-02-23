@@ -25,7 +25,7 @@ monitors:
   - id: blog.udycz.dev
     name: blog.udycz.dev
     description: "Here's my personal blog"
-    url: 'https://udycz.dev'
+    url: 'https://blog.udycz.dev'
     method: GET
     expectStatus: 200
 

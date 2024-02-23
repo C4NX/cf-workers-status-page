@@ -29,6 +29,13 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: git.udycz.dev
+    name: git.udycz.dev
+    description: "My gitea instance !"
+    url: 'https://git.udycz.dev'
+    method: GET
+    expectStatus: 200
+
   - id: api.udycz.dev
     name: api.udycz.dev
     description: "A little more misterious, but this is my public api"

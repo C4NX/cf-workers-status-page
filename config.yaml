@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page - udycz.dev'
+  title: 'Status - Alexis Udycz'
   url: 'https://status.udycz.dev'
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -17,28 +17,7 @@ settings:
 monitors:
   - id: udycz.dev
     name: udycz.dev
-    description: "Here's my personal portfolio"
+    description: "My portfolio"
     url: 'https://udycz.dev'
-    method: GET
-    expectStatus: 200
-    
-  - id: blog.udycz.dev
-    name: blog.udycz.dev
-    description: "Here's my personal blog"
-    url: 'https://blog.udycz.dev'
-    method: GET
-    expectStatus: 200
-
-  - id: git.udycz.dev
-    name: git.udycz.dev
-    description: "My gitea instance !"
-    url: 'https://git.udycz.dev'
-    method: GET
-    expectStatus: 200
-
-  - id: api.udycz.dev
-    name: api.udycz.dev
-    description: "A little more misterious, but this is my public api"
-    url: 'https://api.udycz.dev'
     method: GET
     expectStatus: 200
